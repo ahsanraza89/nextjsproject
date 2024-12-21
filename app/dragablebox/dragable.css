@@ -1,0 +1,28 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cont{
+    display: flex;
+    gap: 5px;
+ flex-wrap: wrap;
+}
+
+.btnd{
+    height: 40px; /* Set a specific height */
+    width: 150px; /* Set a specific width */
+    font-size: 16px; /* Optional: Controls the text size */
+    background-color: burlywood; /* Button background color */
+    
+    border: 1px solid black; /* Removes the default border */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    cursor: pointer; /* Changes cursor on hover */
+    margin-top: 10px; /* Optional: Adds space above the button */
+}

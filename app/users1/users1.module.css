@@ -1,0 +1,37 @@
+
+
+.userr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tab1{
+       width: 100%;
+}
+
+.td1 {
+    padding: 10px;   
+  
+} 
+
+.tab1 tr:nth-child(odd)  {
+    background-color: lightseagreen;
+}
+
+.tab1 tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+.btn3 {
+    background-color: cornsilk;
+ border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  
+}
+

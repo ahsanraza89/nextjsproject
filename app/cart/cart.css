@@ -1,0 +1,45 @@
+.bod{
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    min-height: 70vh;        /* Ensure the page height takes the full screen */
+    margin-top: 0;                /* Remove default body margin */
+    background-color: #eaeaea;
+}
+
+.container1{
+     margin: auto;
+     width: 500px;
+     padding: 20px;
+     height: auto;
+      /* Add some shadow for better UI */
+     border-radius: 8px;    /* Smoothen the edges of the table */
+     overflow: hidden;      /* Handle overflow gracefully */
+     background-color: #f9f9f9;
+  
+    
+}
+table{
+    border: 2px solid black;
+}
+
+td, th {
+    padding: 12px 8px;          /* Add padding for better spacing */
+    text-align: left;           /* Align content to the left */
+    /* Add light borders between rows */
+}
+td{
+    font-weight: bold;
+}
+
+th {
+    background-color: #4CAF50;  /* Green background for header */
+    color: white;               /* White text in header */
+    text-align: left;
+    width: fit-content;
+}
+
+img {
+    border-radius: 5px;         /* Smoothen image corners */
+}
+
